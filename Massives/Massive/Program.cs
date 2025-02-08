@@ -31,9 +31,9 @@ namespace Massive
         }
         static void Main(string[] args)
         {
+            //Массивы задачи А
             Console.WriteLine("Task A");
             Console.WriteLine("Task 1");
-            // Здесь массивы заданий 1-4
             int n = 8;
             PrintFibNumbers(n);
             PrintSpace();
@@ -99,6 +99,7 @@ namespace Massive
 
             //----------------------//
 
+            //Массивы задачи Б
             Console.WriteLine("Task B");
             Console.WriteLine("Task 5");
 
@@ -112,7 +113,7 @@ namespace Massive
             PrintArray(array2);
             
             Console.Write("Converted array2: ");
-            Array.Copy(array, array2, 3);
+            Array.Copy(array, array2, 3); // скопировали первые три элемента массива array в array2
             PrintArray(array2);
 
             PrintSpace();
@@ -126,7 +127,7 @@ namespace Massive
             PrintSpace();
             PrintSpace();
 
-            Array.Resize(ref array, 10);
+            Array.Resize(ref array, 10); // изменили в два раза размер array
             Console.Write("Converted array: ");
             PrintArray(array);
             Console.Write($"Length array = {array.Length}");

@@ -5,3 +5,10 @@ C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.csproj.AssemblyRef
 C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.csproj.CoreCompileInputs.cache
 C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.exe
 C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.pdb
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\bin\Debug\Massive.exe.config
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\bin\Debug\Massive.exe
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\bin\Debug\Massive.pdb
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\obj\Debug\Massive.csproj.AssemblyReference.cache
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\obj\Debug\Massive.csproj.CoreCompileInputs.cache
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\obj\Debug\Massive.exe
+F:\BazhanovS_GUN34_GUNPC-Console_application\Massives\Massive\obj\Debug\Massive.pdb
