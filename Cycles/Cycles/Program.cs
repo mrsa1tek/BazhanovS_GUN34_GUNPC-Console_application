@@ -34,7 +34,7 @@ namespace Cycles
         static void Main(string[] args)
         {
             Console.WriteLine("Task 1");
-            int n = 8;
+            int n = 10;
             PrintFibNumbers(n);
 
             Console.Write("Task 2: ");
