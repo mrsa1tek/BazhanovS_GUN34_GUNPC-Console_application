@@ -5,3 +5,10 @@ C:\Users\bazha\source\repos\Cycles\Cycles\obj\Debug\Cycles.csproj.AssemblyRefere
 C:\Users\bazha\source\repos\Cycles\Cycles\obj\Debug\Cycles.csproj.CoreCompileInputs.cache
 C:\Users\bazha\source\repos\Cycles\Cycles\obj\Debug\Cycles.exe
 C:\Users\bazha\source\repos\Cycles\Cycles\obj\Debug\Cycles.pdb
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\bin\Debug\Cycles.exe.config
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\bin\Debug\Cycles.exe
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\bin\Debug\Cycles.pdb
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\obj\Debug\Cycles.csproj.AssemblyReference.cache
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\obj\Debug\Cycles.csproj.CoreCompileInputs.cache
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\obj\Debug\Cycles.exe
+F:\BazhanovS_GUN34_GUNPC-Console_application\Cycles\Cycles\obj\Debug\Cycles.pdb
