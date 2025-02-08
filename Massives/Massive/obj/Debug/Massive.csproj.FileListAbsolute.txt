@@ -1,0 +1,7 @@
+C:\Users\bazha\source\repos\Massive\Massive\bin\Debug\Massive.exe.config
+C:\Users\bazha\source\repos\Massive\Massive\bin\Debug\Massive.exe
+C:\Users\bazha\source\repos\Massive\Massive\bin\Debug\Massive.pdb
+C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.csproj.AssemblyReference.cache
+C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.csproj.CoreCompileInputs.cache
+C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.exe
+C:\Users\bazha\source\repos\Massive\Massive\obj\Debug\Massive.pdb
