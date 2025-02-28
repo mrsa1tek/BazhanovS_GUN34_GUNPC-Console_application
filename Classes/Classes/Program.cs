@@ -17,10 +17,9 @@ namespace Classes
     {
         private float _health;
         private float _armor;
-        private int _damage;
+        private Interval _damage;
         public string Name { get; }
         public float Health => _health;
-        public int Damage => _damage;
         public float Armor
         {
             get { return (float)Math.Round(_armor, 2); }
@@ -42,8 +41,12 @@ namespace Classes
         public Unit(string name)
         {
             Name = name;
-            _damage = 5;
             _armor = 0.6f;
+        }
+        public Unit(int minDamage, int maxDamage)
+        {
+            _damage = new Interval(minDamage, maxDamage);
+
         }
 
 
