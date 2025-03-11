@@ -53,8 +53,13 @@ namespace Strings
                     Console.WriteLine(ConcatelementsArray(array));
                     break;
                 case "6":
-
-
+                    Console.WriteLine("Task 6");
+                    string result = ReplaceWords("Hello world", "world", "universe");
+                    Console.WriteLine(result);
+                    break;
+                default:
+                    Console.WriteLine("Неизвестное задание");
+                    break;
             }
         }
 
@@ -91,6 +96,13 @@ namespace Strings
                 stringBuilder.Append(' ');
             }
             return stringBuilder;
+        }
+
+        public static string ReplaceWords(string inputString, string wordToReplace, string replacementWord)
+        {
+            inputString = inputString.Replace(wordToReplace,replacementWord);
+
+            return inputString;
         }
     }
 }
