@@ -10,36 +10,52 @@ namespace Strings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Task 1");
-            string str1 = "Hello";
-            string str2 = " World";
-            ConcatenateStrings(str1, str2);
-
-            Console.WriteLine("Task 2");
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
-            Console.Write("Enter your age: ");
-            int age;
-            if (!int.TryParse(Console.ReadLine(), out age))
+            Console.WriteLine("Enter task 1,2,3,4,5 or 6");
+            string choice = Console.ReadLine();
+            switch (choice)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Incorret data! Write the age from the numbers!");
-                Console.ResetColor();
-                return;
+                case "1":
+                    Console.WriteLine("Task 1");
+                    string str1 = "Hello";
+                    string str2 = " World";
+                    ConcatenateStrings(str1, str2);
+                    break;
+                case "2":
+                    Console.WriteLine("Task 2");
+                    Console.Write("Enter your name: ");
+                    string name = Console.ReadLine();
+                    Console.Write("Enter your age: ");
+                    int age;
+                    if (!int.TryParse(Console.ReadLine(), out age))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Incorret data! Write the age from the numbers!");
+                        Console.ResetColor();
+                        return;
+                    }
+                    GreetUser(name, age);
+                    break;
+                case "3":
+                    Console.WriteLine("Task 3");
+                    Console.Write("Enter string: ");
+                    string str3 = Console.ReadLine();
+                    Console.WriteLine(StringInfo(str3));
+                    break;
+                case "4":
+                    Console.WriteLine("Task 4");
+                    Console.Write("Enter string: ");
+                    string str4 = Console.ReadLine();
+                    Console.WriteLine(FirstFiveCharOfString(str4));
+                    break;
+                case "5":
+                    Console.WriteLine("Task 5");
+                    string[] array = new string[] { "Health", "Armor", "Damage", "Speed", "Level", "Critical Damage" };
+                    Console.WriteLine(ConcatelementsArray(array));
+                    break;
+                case "6":
+
+
             }
-            GreetUser(name, age);
-
-            Console.WriteLine("Task 3");
-            Console.Write("Enter string: ");
-            string str3 = Console.ReadLine();
-            Console.WriteLine(StringInfo(str3));
-
-            Console.WriteLine("Task 4");
-            Console.WriteLine(FirstFiveCharOfString(str3));
-
-            Console.WriteLine("Task 5");
-            string[] array = new string[] { "Health", "Armor", "Damage", "Speed", "Level", "Critical Damage" };
-            Console.WriteLine(ConcatelementsArray(array));
         }
 
         static void ConcatenateStrings(string str1, string str2)
