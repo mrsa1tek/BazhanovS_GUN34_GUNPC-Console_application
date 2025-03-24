@@ -9,6 +9,8 @@ namespace GamePrototype.Dungeon
         public readonly Unit Enemy;
         public readonly Item Loot;
         public readonly Dictionary<Direction, DungeonRoom> Rooms = new();
+        public readonly Dictionary<Direction, DungeonRoom> Loots = new();
+
         public bool IsFinal => Rooms.Count == 0;
 
         public DungeonRoom(string name) => Name = name;

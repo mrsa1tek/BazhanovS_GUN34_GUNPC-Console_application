@@ -4,7 +4,7 @@ namespace GamePrototype.Items.EquipItems
 {
     public sealed class Weapon : EquipItem
     {
-        public Weapon(uint damage, uint durability, string name) : base(durability, name) => Damage = damage;
+        public Weapon(uint damage, uint maxDurability, string name) : base(maxDurability, name) => Damage = damage;
 
         public uint Damage { get; }
 

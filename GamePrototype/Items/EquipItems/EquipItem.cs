@@ -1,5 +1,6 @@
 ﻿using GamePrototype.Items.EconomicItems;
 using GamePrototype.Utils;
+using System.ComponentModel.Design;
 
 namespace GamePrototype.Items.EquipItems
 {
@@ -12,13 +13,23 @@ namespace GamePrototype.Items.EquipItems
 
         public abstract EquipSlot Slot { get; }
 
-        protected EquipItem(uint maxDurability, string name) : base(name) => _maxDurability = maxDurability;
+        protected EquipItem(uint maxDurability, string name) : base(name)
+        {
+            _maxDurability = maxDurability;
+            _durability = _maxDurability;
+        }
 
-        public void ReduceDurability(uint delta) => _durability -= delta;
+        public void ReduceDurability(uint delta)
+        {
+            if (delta >= _durability)
+                _durability = 0;
+            else
+                _durability -= delta;
+        }
 
-        public void Repair(uint delta) => 
-            _durability += _durability + delta > _maxDurability 
-            ? _maxDurability 
-            : _durability + delta;
+        public void Repair(uint delta)
+        {
+            _durability = Math.Min(_durability + delta, _maxDurability);
+        }
     }
 }
